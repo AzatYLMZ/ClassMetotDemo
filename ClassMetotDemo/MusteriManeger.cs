@@ -24,7 +24,7 @@ namespace ClassMetotDemo
         }
 
         
-
+        
         public void Listele()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
