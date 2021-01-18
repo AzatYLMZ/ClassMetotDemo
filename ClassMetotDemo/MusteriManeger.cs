@@ -14,20 +14,20 @@ namespace ClassMetotDemo
         
         public void Ekle(Musteri musteri)
         {
-            Console.BackgroundColor = ConsoleColor.White;
-            
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+
+            Console.Write("Eklenen Müşteri: ");
+            Console.ForegroundColor = ConsoleColor.Green;
             Musteriler.Add(musteri);
-            Console.WriteLine("Eklenen Müşteri : " + musteri.Id + " " + musteri.Ad + " " + musteri.Soyad);
-            Console.WriteLine("-------------------------");
+            Console.WriteLine(musteri.Id + " " + musteri.Ad + " " + musteri.Soyad);
             Console.ResetColor();
+            
         }
 
         
 
         public void Listele()
         {
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.ForegroundColor = ConsoleColor.Blue;
             
             Console.WriteLine("Müşteriler");
             foreach (var item in Musteriler)

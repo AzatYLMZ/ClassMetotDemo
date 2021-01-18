@@ -36,6 +36,8 @@ namespace ClassMetotDemo
 
             MusteriManeger musteriManeger = new MusteriManeger();
 
+            
+
             //Müşteri Ekleme Metodu
 
             musteriManeger.Ekle(musteri1);
