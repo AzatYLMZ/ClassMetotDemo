@@ -41,11 +41,13 @@ namespace ClassMetotDemo
             musteriManeger.Ekle(musteri1);
             musteriManeger.Ekle(musteri2);
             musteriManeger.Ekle(musteri3);
-            musteriManeger.Ekle(musteri4);
+            //musteriManeger.Ekle(musteri4);
 
             //Müşteri silme Metodu
 
             musteriManeger.Sil(musteri4);
+
+            //Müşteri Listeleme Metodu
 
             musteriManeger.Listele();
 
