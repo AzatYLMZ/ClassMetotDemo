@@ -36,6 +36,8 @@ namespace ClassMetotDemo
             Console.WriteLine("Silinen Müşteri : " + musteri.Id+ " " + musteri.Ad+ " " + musteri.Soyad);
         }
 
+
+
         
     }
 }
